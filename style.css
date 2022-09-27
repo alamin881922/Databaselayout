@@ -1,0 +1,217 @@
+* {
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+[class*='col-'] {
+    box-sizing: border-box;
+    float: left;
+    margin: 0;
+}
+
+
+/* Home starts here */
+
+.nav {
+    height: 70px;
+    background-color: #d4cccc;
+}
+
+.logoimg {
+    width: 50%;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.searchbox1 {
+    margin: 15px;
+    margin-left: 40px;
+    width: 60%;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.searchbtn1 {
+    padding: 10px;
+    width: 8%;
+    border-radius: 8px;
+    margin-right: 150px;
+    border: none;
+}
+
+.searchbtn1:hover {
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.icon {
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+
+/* Home ends here */
+
+
+/* sidebar starts here */
+
+.sidebar {
+    background-color: #042331;
+    height: 100%;
+    position: fixed;
+    left: 0;
+}
+
+.sidebar ul li a {
+    padding-top: 10px;
+    color: white;
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    border-bottom: 1px solid black;
+    transition: .4s;
+}
+
+.sidebar ul a:hover {
+    padding-left: 50px;
+}
+
+.sidebar ul li a i {
+    margin-right: 16px;
+}
+
+
+/* sidebar ends here */
+
+
+/* boxpart starts here */
+
+.boxpart {
+    height: 160px;
+    margin-left: 460px;
+    margin-top: 50px;
+}
+
+.box {
+    float: left;
+    text-align: center;
+    padding-left: 50px;
+    background-color: #042331;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    border: 5px solid white;
+    box-shadow: 5px 5px 10px black;
+    color: white;
+}
+
+h4 {
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+
+
+/* boxpart ends here */
+
+
+/* table starts here */
+
+.table {
+    margin-left: 250px;
+}
+
+th {
+    font-size: 22px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+td {
+    text-align: center;
+    font-size: 20px;
+    line-height: 40px;
+    padding: 5px;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(214, 212, 212);
+}
+
+.sbox2 {
+    padding: 7px;
+    width: 60%;
+    border-radius: 8px;
+}
+
+.searchbtn2 {
+    padding: 6px;
+    width: 20%;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+
+.searchbtn2:hover {
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+
+/* table ends here */
